@@ -62,10 +62,7 @@ php artisan key:generate
 # 7. Ejecuta las migraciones
 php artisan migrate
 
-# 8. (Opcional) Compila los assets si usas Vite
-# npm install && npm run dev
-
-# 9. Levanta el servidor local
+# 8. Levanta el servidor local
 php artisan serve
 ```
 
@@ -95,5 +92,3 @@ Si la edad es inválida (<0 o >120), verás una vista de error amigable.
 
 - Middlewares personalizados (`ClasificarEdad`) para proteger rutas
 - Redirección controlada a través de `AgeRouterService`
-- Validación del lado del servidor
-- Migraciones seguras con protección de datos maliciosos
